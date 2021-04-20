@@ -8,17 +8,26 @@
     <!-- Vue js -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
     <!-- Style -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
     <!-- Main content -->
     <main>
-        <div class="main-content">
-            <div class="header">
-
+        <div id="main" class="main-content">
+            <div  class="header">
+                <h1>{{ tittle }}</h1>
             </div>
             <div class="content">
-                
+                <div :class="classImg">
+                    <img :src="img1" alt="">
+                </div>
+                <div :class="classImg">
+                    <img :src="img2" alt="">
+                </div>
+                <div :class="classImg">
+                    <img :src="img3" alt="">
+                </div>
             </div>
         </div>
     </main>
