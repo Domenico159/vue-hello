@@ -12,6 +12,9 @@ const main = new Vue(
             img2:'https://www.thaiairways.com/static/it_IT/imgscontent/Lifestyle/BALI_635x450.jpg',
             img3:'https://images.lonelyplanetitalia.it/static/places/maldive-139.jpg?q=80&s=5ae7eea4a1747b04168bbe2b7af8e628',
             classImg:'box-img',
+            img1Title:'Bora Bora',
+            img2Title:'Thailandia',
+            img3Title:'Maldive',
 
         },
         // methods:{
